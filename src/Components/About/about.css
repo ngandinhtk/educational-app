@@ -1,0 +1,91 @@
+.aboutHome {
+   /* margin-top: 41%; */
+   height: auto;
+}
+
+.aboutHome #heading {
+   text-align: left;
+   padding: 0;
+}
+.aboutHome .left {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.aboutHome .left img {
+   width: 80%;
+   height: 80%;
+   object-fit: cover;
+}
+
+.aboutHome .items {
+   margin-top: 50px;
+}
+
+.aboutHome .item {
+   background-color: white;
+   margin-top: 30px ;
+   padding: 20px;
+   transition: .5s;
+}
+
+.aboutHome .img {
+   width: 200px;
+}
+
+.aboutHome img {
+   width: 60px;
+   height: 60px;
+}
+
+.aboutHome .item h2 {
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.aboutHome .item:hover {
+   color: white;
+   cursor: pointer;
+   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+   background-color: #1eb2a6;
+}
+
+.awrapper {
+   background-image: url('../../../public/images/awrapper.webp ');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 32vh;
+   color: #fff;
+   margin: 40px 0;
+}
+.awrapper .box {
+   padding: 50px 0;
+}
+
+.awrapper h1 {
+   font-size: 50px;
+}
+.awrapper h3 {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.awrapper .text-center {
+   text-align: center;
+ }
+
+ @media screen and (max-width: 768px) {
+   .aboutHome {
+      margin-top: 20%;
+   }
+   .aboutHome .container {
+      flex-direction: column-reverse;
+   }
+   .aboutHome .row {
+      width: 100%;
+   }
+   .awrapper {
+      height: 70vh;
+   }
+ }
