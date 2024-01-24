@@ -135,6 +135,16 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+.shadow {
+  box-shadow: 0 5px 25px rgba(0 0 0 / 6%);
+  background: white;
+}
 .text-center {
   text-align: center;
 }
@@ -152,7 +162,14 @@ p {
   color: #fff;
 }
 
-
+.flex {
+  display: flex
+}
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   .back {
     background-position: center;
@@ -160,7 +177,7 @@ p {
     height: 80vh;
   }
 
-.grid,.grid2 {
+.grid,.grid2, .grid3 {
   grid-template-columns: repeat(2, 1fr);
 }
 }

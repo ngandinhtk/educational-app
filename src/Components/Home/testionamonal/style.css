@@ -1,0 +1,57 @@
+.testimomal .items {
+   padding: 30px;
+   transition: .5s;
+}
+
+.testimomal .img {
+   position: relative;
+}
+
+.testimomal img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+
+.testimomal i {
+   position: absolute;
+   bottom: 0;
+   left: 60px;
+   background-color: #1eb2a6;
+   color: white;
+}
+
+.testimomal .name {
+   margin: 25px;
+}
+
+.testimomal .name h2 {
+   font-size: 20px;
+   margin-top: 5px;
+}
+
+.testimomal .name span {
+   color: #1eb2a6;
+}
+
+.testimomal p {
+   margin-top: 20px;
+   color: gray;
+   transition: .5s;
+}
+
+.testimomal .items:hover {
+   background: #1eb2a6;
+   color: white;
+   cursor: pointer;
+}
+
+.testimomal .items:hover p, .testimomal .items:hover span {
+   color: white;
+}
+
+.testimomal .items:hover i {
+   background-color: white;
+   color: #1eb2a6;
+}
+ 
